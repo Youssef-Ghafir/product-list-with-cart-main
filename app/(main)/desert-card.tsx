@@ -55,6 +55,7 @@ export const DesertCard = ({ image, name, category, price }: Props) => {
         <Image
           src={image}
           alt={name}
+          placeholder="blur"
           priority
           fill
           className={cn(

@@ -1,21 +1,24 @@
 type data = {
   image: {
-    thumbnail: string;
-    mobile: string;
-    tablet: string;
-    desktop: string;
+    desktop: any;
   };
   name: string;
   category: string;
   price: number;
 };
+import img_1 from "./images/image-waffle-desktop.jpg";
+import img_2 from "./images/image-creme-brulee-desktop.jpg";
+import img_3 from "./images/image-macaron-desktop.jpg";
+import img_4 from "./images/image-tiramisu-desktop.jpg";
+import img_5 from "./images/image-baklava-desktop.jpg";
+import img_6 from "./images/image-meringue-desktop.jpg";
+import img_7 from "./images/image-cake-desktop.jpg";
+import img_8 from "./images/image-brownie-desktop.jpg";
+import img_9 from "./images/image-panna-cotta-desktop.jpg";
 export const data: data[] = [
   {
     image: {
-      thumbnail: "/images/image-waffle-thumbnail.jpg",
-      mobile: "/images/image-waffle-mobile.jpg",
-      tablet: "/images/image-waffle-tablet.jpg",
-      desktop: "/images/image-waffle-desktop.jpg",
+      desktop: img_1,
     },
     name: "Waffle with Berries",
     category: "Waffle",
@@ -23,10 +26,7 @@ export const data: data[] = [
   },
   {
     image: {
-      thumbnail: "/images/image-creme-brulee-thumbnail.jpg",
-      mobile: "/images/image-creme-brulee-mobile.jpg",
-      tablet: "/images/image-creme-brulee-tablet.jpg",
-      desktop: "/images/image-creme-brulee-desktop.jpg",
+      desktop: img_2,
     },
     name: "Vanilla Bean Crème Brûlée",
     category: "Crème Brûlée",
@@ -34,10 +34,7 @@ export const data: data[] = [
   },
   {
     image: {
-      thumbnail: "/images/image-macaron-thumbnail.jpg",
-      mobile: "/images/image-macaron-mobile.jpg",
-      tablet: "/images/image-macaron-tablet.jpg",
-      desktop: "/images/image-macaron-desktop.jpg",
+      desktop: img_3,
     },
     name: "Macaron Mix of Five",
     category: "Macaron",
@@ -45,10 +42,7 @@ export const data: data[] = [
   },
   {
     image: {
-      thumbnail: "/images/image-tiramisu-thumbnail.jpg",
-      mobile: "/images/image-tiramisu-mobile.jpg",
-      tablet: "/images/image-tiramisu-tablet.jpg",
-      desktop: "/images/image-tiramisu-desktop.jpg",
+      desktop: img_4,
     },
     name: "Classic Tiramisu",
     category: "Tiramisu",
@@ -56,10 +50,7 @@ export const data: data[] = [
   },
   {
     image: {
-      thumbnail: "/images/image-baklava-thumbnail.jpg",
-      mobile: "/images/image-baklava-mobile.jpg",
-      tablet: "/images/image-baklava-tablet.jpg",
-      desktop: "/images/image-baklava-desktop.jpg",
+      desktop: img_5,
     },
     name: "Pistachio Baklava",
     category: "Baklava",
@@ -67,10 +58,7 @@ export const data: data[] = [
   },
   {
     image: {
-      thumbnail: "/images/image-meringue-thumbnail.jpg",
-      mobile: "/images/image-meringue-mobile.jpg",
-      tablet: "/images/image-meringue-tablet.jpg",
-      desktop: "/images/image-meringue-desktop.jpg",
+      desktop: img_6,
     },
     name: "Lemon Meringue Pie",
     category: "Pie",
@@ -78,10 +66,7 @@ export const data: data[] = [
   },
   {
     image: {
-      thumbnail: "/images/image-cake-thumbnail.jpg",
-      mobile: "/images/image-cake-mobile.jpg",
-      tablet: "/images/image-cake-tablet.jpg",
-      desktop: "/images/image-cake-desktop.jpg",
+      desktop: img_7,
     },
     name: "Red Velvet Cake",
     category: "Cake",
@@ -89,10 +74,7 @@ export const data: data[] = [
   },
   {
     image: {
-      thumbnail: "/images/image-brownie-thumbnail.jpg",
-      mobile: "/images/image-brownie-mobile.jpg",
-      tablet: "/images/image-brownie-tablet.jpg",
-      desktop: "/images/image-brownie-desktop.jpg",
+      desktop: img_8,
     },
     name: "Salted Caramel Brownie",
     category: "Brownie",
@@ -100,10 +82,7 @@ export const data: data[] = [
   },
   {
     image: {
-      thumbnail: "/images/image-panna-cotta-thumbnail.jpg",
-      mobile: "/images/image-panna-cotta-mobile.jpg",
-      tablet: "/images/image-panna-cotta-tablet.jpg",
-      desktop: "/images/image-panna-cotta-desktop.jpg",
+      desktop: img_9,
     },
     name: "Vanilla Panna Cotta",
     category: "Panna Cotta",
